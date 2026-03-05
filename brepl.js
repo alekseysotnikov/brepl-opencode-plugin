@@ -3,7 +3,7 @@ const { exec } = require("child_process")
 const { promisify } = require("util")
 const execAsync = promisify(exec)
 
-const CLOJURE_EXTS = [".clj", ".cljs", ".cljc", ".edn"]
+const CLOJURE_EXTS = [".clj", ".cljs", ".cljc", ".cljx", "bb"]
 const isClojure = (path) => CLOJURE_EXTS.includes("." + path.split(".").pop()?.toLowerCase())
 
 const runHook = (cmd, input) =>
