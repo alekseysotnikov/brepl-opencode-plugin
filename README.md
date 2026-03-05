@@ -1,4 +1,4 @@
-# opencode brepl plugin
+# brepl opencode plugin
 
 [Brepl](https://github.com/licht1stein/brepl) integration for OpenCode - automatic Clojure syntax validation, auto-fix, and REPL evaluation.
 
