@@ -50,7 +50,6 @@ session.created (capture sessionId)
        ↓
 ┌────────────────────────────────────┐
 │  Edit/Write Clojure File           | 
-|  (.clj .cljs .cljc .edn)           │
 ├────────────────────────────────────┤
 │  tool.execute.before (Event)       │
 │       ↓                            │
