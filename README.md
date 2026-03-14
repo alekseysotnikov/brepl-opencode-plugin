@@ -18,17 +18,17 @@ Follow [instruction](https://github.com/licht1stein/brepl?tab=readme-ov-file#ins
 
 ### 2. Install Plugin
 
-#### Global (default) to `~/.config/opencode/plugins/brepl.js`
+#### Global (default)
 ```bash
 ./install.sh
 ```
 
-#### Or Local project
+#### Local project
 ```
 ./install.sh /path/to/project
 ```
 
-#### Or manually 
+#### Manually
 Copy `brepl.js` file to either Global plugin directory (`~/.config/opencode/plugins/`)
 or Project plugin directory (`.opencode/plugins/`)
 
