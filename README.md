@@ -14,6 +14,12 @@ Detailed `brepl` features [here](https://github.com/licht1stein/brepl?tab=readme
 
 ### 1. Install brepl
 
+#### Shortcut
+```shell
+bbin install io.github.licht1stein/brepl
+brepl --help
+```
+#### or
 Follow [instruction](https://github.com/licht1stein/brepl?tab=readme-ov-file#installation)
 
 ### 2. Install Plugin
