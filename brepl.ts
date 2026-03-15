@@ -44,7 +44,7 @@ export const BreplPlugin: Plugin = async ({ client }) => {
     await log(`[runHook] Executing: ${fullCmd}`, { input, cwd: process.cwd() })
 
     try {
-      const result = await execAsync(fullCmd, { timeout: 60000, maxBuffer: 10 * 1024 * 1024, env: process.env })
+      const result = await execAsync(fullCmd, { timeout: 60000, env: process.env })
       const output = String(result.stdout).trim()
       await log(`[runHook] Success: ${fullCmd}`, { stdout: output })
       return output.startsWith("{") ? JSON.parse(output) : null
