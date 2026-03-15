@@ -20,6 +20,7 @@ Follow [instruction](https://github.com/licht1stein/brepl?tab=readme-ov-file#ins
 
 #### Global (default)
 ```bash
+# to `~/.config/opencode/plugins/brepl.ts`
 ./install.sh
 ```
 
@@ -28,9 +29,10 @@ Follow [instruction](https://github.com/licht1stein/brepl?tab=readme-ov-file#ins
 ./install.sh /path/to/project
 ```
 
-#### Manually
-Copy `brepl.js` file to either Global plugin directory (`~/.config/opencode/plugins/`)
-or Project plugin directory (`.opencode/plugins/`)
+#### Manually 
+Copy `brepl.ts` file to either 
+- Global plugin directory (`~/.config/opencode/plugins/`)
+- Project plugin directory (`.opencode/plugins/`)
 
 ## Usage
 
